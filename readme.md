@@ -37,8 +37,10 @@ difficile.c
 
 Comment récupérer les fichiers ?
 1. Cloner le dépôt
-git clone https://github.com/mnjaay/Set_Info_Club-night_coding_debugging.git
+git clone https://github.com/<nom-du-club>/bug-hunting.git
 
+2. Entrer dans le dossier
+cd nuit-coding-debugging
 
 Créer une nouvelle branche pour votre équipe
 1. Exemple creation branche 
@@ -53,5 +55,3 @@ facile/
 intermediaire/
 
 difficile/
-
-Bonne chance 
