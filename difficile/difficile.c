@@ -9,7 +9,7 @@ char* inverse_chaine(char* s) {
 
     int n = strlen(s);
     int i = 0;
-    int j = n; 
+    int j = n - 1; 
     while (i < j) {
         char temp = s[i];
         s[i] = s[j]; 
@@ -24,7 +24,9 @@ char* inverse_chaine(char* s) {
 
 int main() {
     char chaine1[] = "bonjour";
-    printf("Original: %s, Inversé: %s\n", chaine1, inverse_chaine(chaine1));
+    
+    printf("Original: %s \n", chaine1 );
+    printf(" Inversé: %s\n",inverse_chaine(chaine1));
 
    
     char chaine2[] = "";
