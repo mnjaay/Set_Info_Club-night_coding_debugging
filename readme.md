@@ -13,35 +13,44 @@ Objectif : repérer des erreurs évidentes
 
 Contient :
 
-facile_1.c
+``` facile_1.c ```
 
-facile_2.c
+``` facile_2.c ```
+
+``` facile_3.c ```
 
 Niveau Intermédiaire
 Objectif : corriger des erreurs plus subtiles
 
 Contient :
 
-intermediaire.c
+``` intermediaire.c ```
 
 Niveau Difficile
 Objectif : corriger des bugs invisibles à l’exécution mais qui faussent le résultat
 
 Contient :
 
-difficile.c
+``` difficile.c ```
 
 Comment récupérer les fichiers ?
 
-Cloner le dépôt git clone https://github.com/mnjaay/Set_Info_Club-night_coding_debugging.git
+Cloner le dépôt 
+
+###
+```bash
+git clone https://github.com/mnjaay/Set_Info_Club-night_coding_debugging.git
+```
+###
+
 Créer une nouvelle branche pour votre équipe
 
 Exemple creation branche git checkout -b equipe1
 Vérifier sur quelle branche vous êtes Modifier les fichiers et corriger les bugs
 Les équipes corrigent les codes dans leur dossier correspondant :
 
-facile/
+``` facile/ ```
 
-intermediaire/
+``` intermediaire/ ```
 
-difficile/
+``` difficile/ ```
