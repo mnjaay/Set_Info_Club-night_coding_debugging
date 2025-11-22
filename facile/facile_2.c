@@ -6,7 +6,7 @@ float calculerPrix(float prixHT, float tva) {
 
 int main() {
     float prix = calculerPrix(100, 18);
-    printf("Prix TTC : %f", prix);  
+    printf("Prix TTC : %f\n", prix);
     return 0;
 }
 
