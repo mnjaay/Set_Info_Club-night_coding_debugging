@@ -1,10 +1,10 @@
 #include <stdio.h>
 
 int sommePairs(int tab[], int taille) {
-    int somme = 1;
+    int somme = 0;
     for (int i = 0; i < taille; i++) {
-        if (tab[i] / 2 == 0)
-            somme = tab[i];  
+        if (tab[i] % 2 == 0)
+            somme += tab[i];  
     }
     return somme;
 }
