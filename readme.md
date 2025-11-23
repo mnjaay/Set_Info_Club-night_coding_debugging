@@ -19,6 +19,8 @@ Contient :
 
 ``` facile_3.c ```
 
+facile_3.c
+
 Niveau Intermédiaire
 Objectif : corriger des erreurs plus subtiles
 
