@@ -4,7 +4,7 @@ int sommePairs(int tab[], int taille) {
     int somme = 0;//initialiser somme à 0
     for (int i = 0; i < taille; i++) {
         if (tab[i] % 2 == 0)//modulo au lieu de /
-            somme += tab[i]; //modification somme += tab[i];
+            somme += tab[i]; //modification somme += tab[i] au lieu de somme = tab[i];
     }
     return somme;
 }
