@@ -9,4 +9,3 @@ int main() {
     printf("Prix TTC :%f ", prix);  
     return 0;
 }
-
